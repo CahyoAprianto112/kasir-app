@@ -2,6 +2,15 @@
 
 Kasir App adalah aplikasi kasir sederhana yang dibangun dengan React.js di bagian frontend dan JSON Server sebagai mock API untuk kebutuhan data. Aplikasi ini cocok banget buat simulasi transaksi penjualan di toko kecil atau warung. Selain itu, bisa jadi proyek latihan atau demo buat belajar React dan cara ngubungin frontend sama JSON Server.
 
+## Screenshot Aplikasi
+
+![Kasir App Screenshot](./public/assets/images/tampilan-app.png)
+
+## Sumber Belajar
+
+Aplikasi ini dibangun dengan mengikuti tutorial dari YouTube Wahidev Academy. Kalian bisa cek video tutorial lengkapnya [di sini](https://www.youtube.com/@WahidevAcademy).
+Terima kasih kepada Wahidev Academy atas tutorialnya yang sangat membantu!
+
 ## Fitur
 
 - **Tampilan Produk**: Menampilkan daftar produk yang tersedia, lengkap dengan kategori dan harga. Jadi, kamu bisa liat apa aja yang dijual di toko.
@@ -45,3 +54,11 @@ Kasir App adalah aplikasi kasir sederhana yang dibangun dengan React.js di bagia
    ```bash
    http://localhost:5173
    ```
+
+## Dokumentasi JSON Server
+
+Untuk dokumentasi lebih lanjut mengenai JSON Server, kamu bisa kunjungi situs resmi JSON Server di [sini](https://github.com/typicode/json-server/tree/v0).
+
+```
+
+```
