@@ -29,7 +29,7 @@ Terima kasih kepada Wahidev Academy atas tutorialnya yang sangat membantu!
 1. Clone repository ini ke komputer kamu:
 
    ```bash
-   git clone https://github.com/username/kasir-app.git
+   git clone https://github.com/CahyoAprianto112/kasir-app.git
    ```
 
 2. Install dependencies:
