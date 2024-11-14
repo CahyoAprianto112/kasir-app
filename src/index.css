@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #22668a;
+  font-family: "Public Sans", sans-serif;
+}
+
+.category-aktif {
+  background-color: #22668a;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #22668a;
+}
+
+.hasil {
+  height: 650px;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+
+  .menu{
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-item {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu-item:hover {
+  scale: 1.05;
+}
