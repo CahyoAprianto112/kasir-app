@@ -1,8 +1,47 @@
-# React + Vite
+# Kasir App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kasir App adalah aplikasi kasir sederhana yang dibangun dengan React.js di bagian frontend dan JSON Server sebagai mock API untuk kebutuhan data. Aplikasi ini cocok banget buat simulasi transaksi penjualan di toko kecil atau warung. Selain itu, bisa jadi proyek latihan atau demo buat belajar React dan cara ngubungin frontend sama JSON Server.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tampilan Produk**: Menampilkan daftar produk yang tersedia, lengkap dengan kategori dan harga. Jadi, kamu bisa liat apa aja yang dijual di toko.
+- **Keranjang Belanja**: Bisa nambahin produk ke keranjang, hitung total harga, dan ngatur item dalam keranjang. Jadi, mudah banget buat cek total belanjaan.
+- **Total Pembayaran**: Menampilkan total harga dari semua item yang ada di keranjang secara dinamis. Gak bakal bingung lagi berapa total belanjaan kamu.
+- **Transaksi Sukses**: Setelah transaksi berhasil, aplikasi bakal kasih pesan sukses. Jadi, kamu tau kalau transaksi udah selesai dengan baik.
+
+## Teknologi yang Digunakan
+
+- **Frontend**: React.js dengan Vite
+- **Backend**: JSON Server (sebagai mock API yang ngambil data dari file JSON)
+- **Styling**: React-Bootstrap
+
+## Cara Install dan Jalankan
+
+1. Clone repository ini ke komputer kamu:
+
+   ```bash
+   git clone https://github.com/username/kasir-app.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Jalankan JSON Server untuk menyediakan data:
+
+   ```bash
+   npx json-server db.json
+   ```
+
+4. Jalankan aplikasi React dengan Vite:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Akses aplikasi di browser:
+   ```bash
+   http://localhost:5173
+   ```
