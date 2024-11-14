@@ -59,6 +59,3 @@ Terima kasih kepada Wahidev Academy atas tutorialnya yang sangat membantu!
 
 Untuk dokumentasi lebih lanjut mengenai JSON Server, kamu bisa kunjungi situs resmi JSON Server di [sini](https://github.com/typicode/json-server/tree/v0).
 
-```
-
-```
